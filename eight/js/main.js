@@ -3,9 +3,9 @@ import {move, goalTest,actions, successor} from "./game.js"
 import {search} from "./search.js"
 
 const initialState = [
-    [4, 1, 3],
-    [7, 2, 5],
-    [8, 0, 6]]
+    [4, 1, 0],
+    [7, 5, 3],
+    [8, 2, 6]]
 
 let s1 = initialState
 new GameView(s1)
